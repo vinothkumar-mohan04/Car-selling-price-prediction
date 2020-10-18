@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background: linear-gradient( to right bottom, #673887, #943985, #de5d74);
+    color: #fff;
+}
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem 0 0;
+}
+.heading {
+    margin: 0;
+}
+.sub-heading {
+    margin: 0;
+    padding: 12px 0 50px;
+    font-size: 14px;
+    font-style: italic;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+.row {
+    display: flex;
+    margin: 0 -15px 50px;
+    text-align: left;
+}
+.col-6 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 100%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+label {
+    padding-bottom: 10px;
+}
+.input {
+    border: 0px;
+    max-width: 200px;
+    height: 30px;
+    background: transparent;
+    color: #fb9d80;
+}
+.input:focus {
+    border: 0;
+    outline: 0;
+}
+.input::placeholder {
+    color: #fff;
+}
+.input-line {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    height: 1px;
+    background-color: #fff;
+}
+.input-line:before {
+    content: "";
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #fb9d80;
+    transition: all .2s ease;
+    transform-origin: 50%;
+    transform: scaleX(0.5);
+    opacity: 0;
+}
+.input:focus + .input-line:before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+.input:focus + label {
+    color: #d3d3d3;
+}
+select.input:focus {
+    background: #fb9d80;
+    color: #fff;
+}
+.submit-btn {
+    background: linear-gradient(to right, #f3344e, #f55099);
+    border: 0;
+    padding: 20px 40px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit-btn:focus {
+    border: 0;
+    outline: 0;
+}
+.submit-btn:hover {
+    /* background: linear-gradient(to right , #f66a7d, #ff78b4); */
+    background: linear-gradient(to right , #e61f3a, #e4488d);
+}
+.prediction-result {
+    background: linear-gradient( to right bottom, #e4488d, #ff78b4, #f55099);
+    padding: 12px 0px;
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
