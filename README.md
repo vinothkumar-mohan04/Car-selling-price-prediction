@@ -8,7 +8,7 @@
 
 • Please do ⭐ the repository, if it helped you in anyway.
 • A glimpse of the web app:
-![alt text](https://github.com/vinothkumar-mohan04/Car-selling-price-prediction/blob/main/readme_resources/Car-price.gif)
+![alt text](https://github.com/vinothkumar-mohan04/Car-selling-price-prediction/blob/main/readme_resources/bandicam%202020-10-20%2018-22-45-118.mp4)
 
 ----- Important Note -----
 • If you encounter this webapp as shown in the picture given below, it is occuring just because free dynos for this particular month provided by Heroku have been completely used. You can access the webpage on 1st of the next month.
